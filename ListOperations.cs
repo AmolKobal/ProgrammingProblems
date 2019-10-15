@@ -13,7 +13,7 @@ namespace ProgrammingProblems
             For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
         */
 
-        public static bool SumOfTwoNumbers(int[] list, int k)
+        public static bool IsSumOfTwoNumbers(int[] list, int k)
         {
             for (int i = 0; i < list.Length; i++)
             {
