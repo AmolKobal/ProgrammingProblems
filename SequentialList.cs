@@ -10,6 +10,7 @@ namespace ProgrammingProblems
     /// E.g. Set = (1, 3, 5, 7), Subset = (1, 3)
     /// Returns true if all elementsof Subset is available in Set.
     /// </summary>
+
     class SequentialList
     {
         int[] set;
