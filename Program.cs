@@ -7,9 +7,12 @@ namespace Example
     {
         static void Main(string[] args)
         {
+            NumberOperationsTest.Run();
+
             ListOperationsTest.Run();
 
             SequentialListTest.Run();
+
             ReadLine();
             return;
 
