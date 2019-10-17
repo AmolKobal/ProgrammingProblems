@@ -10,16 +10,22 @@ namespace ProgrammingProblems.Test
 
             int k = 17;
             if (ListOperations.IsSumOfTwoNumbers(list, k))
-                WriteLine($"{k} is SUM of two numbers of list {SequentialList.Print(list)}");
+                WriteLine($"{k} is SUM of two numbers of list {list.Print()}");
             else
-                WriteLine($"{k} is not SUM of two numbers of list {SequentialList.Print(list)}");
+                WriteLine($"{k} is not SUM of two numbers of list {list.Print()}");
 
+            WriteLine(new string('═', 100));
             k = 50;
             if (ListOperations.IsSumOfTwoNumbers(list, k))
-                WriteLine($"{k} is SUM of two numbers of list {SequentialList.Print(list)}");
+                WriteLine($"{k} is SUM of two numbers of list {list.Print()}");
             else
-                WriteLine($"{k} is NOT SUM of two numbers of list {SequentialList.Print(list)}");
+                WriteLine($"{k} is NOT SUM of two numbers of list {list.Print()}");
 
+            WriteLine(new string('═', 100));
+            WriteLine($"Source List {list.Print()}");
+            WriteLine($"Product of List elements excluding Index itself: {ListOperations.NumberProduct(list).Print()}");
+
+            WriteLine(new string('═', 100));
         }
     }
 }
