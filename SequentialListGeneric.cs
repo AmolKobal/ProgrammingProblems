@@ -32,14 +32,5 @@
             return true;
         }
 
-        public static string Print(T[] list)
-        {
-            string output = "";
-            output = "[ ";
-            foreach (T item in list)
-                output += item + " ";
-            output += "]";
-            return output;
-        }
     }
 }

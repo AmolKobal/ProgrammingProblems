@@ -38,15 +38,6 @@
             return true;
         }
 
-        public static string Print(int[] list)
-        {
-            string output = "";
-            output = "[ ";
-            foreach (int item in list)
-                output += item + " ";
-            output += "]";
-            return output;
-        }
     }
 
 }
