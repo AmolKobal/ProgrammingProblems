@@ -7,6 +7,8 @@ namespace Example
     {
         static void Main(string[] args)
         {
+            QuickReportTest.Run();
+
             NumberOperationsTest.Run();
 
             ListOperationsTest.Run();
