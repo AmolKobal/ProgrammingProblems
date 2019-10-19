@@ -10,6 +10,8 @@ namespace ProgrammingProblems.Test
             PascalTriangleTest();
 
             SumOfMultipleTest();
+
+            MissingPositiveNumberInArray();
         }
 
         private static void PascalTriangleTest()
@@ -27,5 +29,15 @@ namespace ProgrammingProblems.Test
 
             WriteLine($"Sum: {NumberOperations.SumOfMultiples(number1, number2, endNumber)}");
         }
+
+        private static void MissingPositiveNumberInArray()
+        {
+            // int[] input = { 1, 2, 0 };
+
+            int[] input = { 3, 4, -1, 1 };
+
+            WriteLine("Missing Element: " + NumberOperations.MissingPositiveNumberInArray(input));
+        }
+
     }
 }

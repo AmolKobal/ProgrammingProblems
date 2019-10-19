@@ -9,7 +9,9 @@ namespace ProgrammingProblems.Test
     {
         public static void Run()
         {
-            int[] input = { 56, 35, 45, 67, 12, 24, 48, 55, 58, 30 };
+            //int[] input = { 56, 35, 45, 67, 12, 24, 48, 55, 58, 30 };
+
+            int[] input = { 6, 8, 10, 14 };
 
             QuickReport rpt = new QuickReport(input);
 
