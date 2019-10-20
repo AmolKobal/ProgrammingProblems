@@ -15,6 +15,8 @@ namespace Example
 
             SequentialListTest.Run();
 
+            StringOperationsTest.Run();
+
             ReadLine();
             return;
 
