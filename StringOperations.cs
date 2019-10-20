@@ -9,12 +9,7 @@ namespace ProgrammingProblems
         {
             string[] words = input.Split(' ');
 
-            //Array.Sort<string>(words);
-
             WriteLine($"Input: {input}");
-
-            foreach (string str in words)
-                WriteLine($"{str} ");
 
             for (int i = 0; i < words.Length; i++)
             {
