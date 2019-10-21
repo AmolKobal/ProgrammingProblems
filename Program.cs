@@ -17,6 +17,8 @@ namespace Example
 
             StringOperationsTest.Run();
 
+            ThreadOperationsTest.Run();
+
             ReadLine();
             return;
 
