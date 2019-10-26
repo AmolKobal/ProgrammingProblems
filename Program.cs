@@ -19,6 +19,8 @@ namespace Example
 
             ThreadOperationsTest.Run();
 
+            JobSchedulerTest.Run();
+
             ReadLine();
             return;
 
