@@ -28,43 +28,6 @@ namespace ProgrammingProblems
         }
 
         /*
-         * Pascal Triangle
-         */
-
-        public static void PascalTriangle(int n)
-        {
-            List<int> current = new List<int>();
-            List<int> previous = new List<int>();
-
-            int num = 1;
-
-            for (int i = 1; i <= n; i++)
-            {
-                Write(new string(' ', n - i));
-
-                for (int j = 1; j <= i; j++)
-                {
-                    if (j == 1 || j == i)
-                    {
-                        num = 1;
-                    }
-                    else
-                    {
-                        num = previous[j - 1] + previous[j - 2];
-                    }
-
-                    Write($"{ num } ");
-                    current.Add(num);
-                }
-
-                previous = current;
-                current = new List<int>();
-                WriteLine();
-            }
-        }
-
-
-        /*
          * Given an array of integers, find the first missing positive integer in linear time and constant space.
          * In other words, find the lowest positive integer that does not exist in the array.
          * The array can contain duplicates and negative numbers as well.
