@@ -11,6 +11,9 @@ namespace ProgrammingProblems
     {
         public static bool Abort { get; set; }
 
+        public static int SecondsCounter { get; set; }
+        public static int Increment { get; set; }
+
         // Counter used for Testing Purpose only; to stop the Job after certain interval; otherwise it will run forever.
         private static int counter = 0;
 
@@ -21,10 +24,10 @@ namespace ProgrammingProblems
                 Thread.Sleep(n);
 
                 f.DynamicInvoke(counter);
-                
+
                 // Counter used for Testing Purpose only;
-                counter += 10;
-                if (counter > 1000)
+                counter += Increment;
+                if (counter > SecondsCounter)
                     Abort = true;
             }
         }
