@@ -18,7 +18,7 @@ namespace ProgrammingProblems.Test
         {
             int num = 15;
 
-            NumberOperations.PascalTriangle(num);
+            PascalTriangle.Draw(num);
         }
 
         private static void SumOfMultipleTest()

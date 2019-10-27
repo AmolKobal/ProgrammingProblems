@@ -13,7 +13,11 @@ namespace ProgrammingProblems.Test
         {
             Function f = new Function(FuncImplemention);
 
-            JobScheduler.Schedule(f, 100);
+            int sleepDuration = 100;
+            int increment = 10;
+            JobScheduler.SecondsCounter = 500;
+            JobScheduler.Increment = increment;
+            JobScheduler.Schedule(f, sleepDuration);
         }
 
         public static void FuncImplemention(int counter)
