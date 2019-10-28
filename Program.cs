@@ -1,7 +1,7 @@
 using static System.Console;
 using ProgrammingProblems.Test;
 
-namespace Example
+namespace ProgrammingProblems
 {
     class Program
     {
@@ -16,6 +16,8 @@ namespace Example
             SequentialListTest.Run();
 
             StringOperationsTest.Run();
+
+            OtherTest.Run();
 
             ThreadOperationsTest.Run();
 
