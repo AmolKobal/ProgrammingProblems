@@ -36,7 +36,7 @@ namespace ProgrammingProblems.Test
 
             int[] input = { 3, 4, -1, 1 };
 
-            WriteLine("Missing Element: " + NumberOperations.MissingPositiveNumberInArray(input));
+            WriteLine("Missing Element: " + ListOperations.MissingPositiveNumberInArray(input));
         }
 
     }
