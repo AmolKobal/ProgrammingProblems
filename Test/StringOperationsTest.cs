@@ -8,6 +8,7 @@ namespace ProgrammingProblems.Test
         {
             WordsWithinWordsTest();
             WordsOfSameLetterTest();
+            AutoCompleteWordsTest();
         }
 
         public static void WordsWithinWordsTest()
@@ -21,8 +22,21 @@ namespace ProgrammingProblems.Test
         {
             string input = "How can you listen if you are not silent ?";
 
-            StringOperations.WordsOfSameLetter(input);            
+            StringOperations.WordsOfSameLetter(input);
         }
 
+        public static void AutoCompleteWordsTest()
+        {
+            string[] input = new string[3];
+
+            input[0] = "dogrs";
+            input[1] = "deer";
+            input[2] = "deal";
+
+            string querystring = "de";
+
+            StringOperations.AutoCompleteWords(input, querystring);
+
+        }
     }
 }

@@ -19,9 +19,9 @@ namespace ProgrammingProblems
 
             OtherTest.Run();
 
-            ThreadOperationsTest.Run();
+            //ThreadOperationsTest.Run();
 
-            JobSchedulerTest.Run();
+            //JobSchedulerTest.Run();
 
             ReadLine();
             return;
