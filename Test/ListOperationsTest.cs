@@ -6,6 +6,13 @@ namespace ProgrammingProblems.Test
     {
         public static void Run()
         {
+            SumOfTwoNumbers();
+
+            MissingPositiveNumberInArray();
+        }
+
+        private static void SumOfTwoNumbers()
+        {
             int[] list = { 10, 15, 3, 7 };
 
             int k = 17;
@@ -26,6 +33,15 @@ namespace ProgrammingProblems.Test
             WriteLine($"Product of List elements excluding Index itself: {ListOperations.NumberProduct(list).Print()}");
 
             WriteLine(new string('═', 100));
+        }
+
+        private static void MissingPositiveNumberInArray()
+        {
+            // int[] input = { 1, 2, 0 };
+
+            int[] input = { 3, 4, -1, 1 };
+
+            WriteLine("Missing Element: " + ListOperations.MissingPositiveNumberInArray(input));
         }
     }
 }

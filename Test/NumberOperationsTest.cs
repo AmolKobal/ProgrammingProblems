@@ -7,11 +7,11 @@ namespace ProgrammingProblems.Test
     {
         public static void Run()
         {
-            PascalTriangleTest();
+            //PascalTriangleTest();
 
-            SumOfMultipleTest();
+            //SumOfMultipleTest();
 
-            MissingPositiveNumberInArray();
+            RandomNumerTest();
         }
 
         private static void PascalTriangleTest()
@@ -30,13 +30,12 @@ namespace ProgrammingProblems.Test
             WriteLine($"Sum: {NumberOperations.SumOfMultiples(number1, number2, endNumber)}");
         }
 
-        private static void MissingPositiveNumberInArray()
+        private static void RandomNumerTest()
         {
-            // int[] input = { 1, 2, 0 };
+            int num1 = 10;
+            int num2 = 50;
 
-            int[] input = { 3, 4, -1, 1 };
-
-            WriteLine("Missing Element: " + ListOperations.MissingPositiveNumberInArray(input));
+            WriteLine($"Random Number Between {num1} and {num2} is {NumberOperations.RandomNumber(num1, num2)}");
         }
 
     }
