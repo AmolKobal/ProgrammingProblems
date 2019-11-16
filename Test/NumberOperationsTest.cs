@@ -1,5 +1,6 @@
 ﻿using System;
 using static System.Console;
+using ProgrammingProblems.Classes;
 
 namespace ProgrammingProblems.Test
 {
@@ -27,7 +28,7 @@ namespace ProgrammingProblems.Test
             int number2 = 5;
             int endNumber = 10;
 
-            WriteLine($"Sum: {NumberOperations.SumOfMultiples(number1, number2, endNumber)}");
+            WriteLine($"Sum: {SumOfMultiples.Sum(number1, number2, endNumber)}");
         }
 
         private static void RandomNumerTest()
@@ -35,7 +36,7 @@ namespace ProgrammingProblems.Test
             int num1 = 10;
             int num2 = 50;
 
-            WriteLine($"Random Number Between {num1} and {num2} is {NumberOperations.RandomNumber(num1, num2)}");
+            WriteLine($"Random Number Between {num1} and {num2} is {RandomNumber.Generate(num1, num2)}");
         }
 
     }

@@ -1,5 +1,6 @@
 using static System.Console;
 using ProgrammingProblems.Test;
+using System.Threading;
 
 namespace ProgrammingProblems
 {
@@ -23,7 +24,14 @@ namespace ProgrammingProblems
 
             //JobSchedulerTest.Run();
 
+            for (int i = 0; i < 100; i++)
+            {
+                NumberOperationsTest.Run();
+                Thread.Sleep(100);
+            }
+
             ReadLine();
+
             return;
 
         }
