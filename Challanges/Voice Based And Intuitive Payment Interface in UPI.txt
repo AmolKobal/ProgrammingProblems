@@ -1,0 +1,61 @@
+Voice Based And Intuitive Payment Interface in UPI
+Voice command is the interface of the future.
+
+Siri, Alexa, Google Assistant, and others have found their way into every device imaginable, from smartphones to speakers, watches, light bulbs, and even vacuum cleaners. The technology is also continually improving. Also, consumers dislike of friction is well-documented.
+
+Security issues and lack of customer trust are among the top obstacles to the adoption of voice payments. Voice payments will succeed only when we develop and implement advanced authentication and protection methods.
+
+NPCI is inviting all developers/startups/fintechs/ to build a complete solution which integrates in the current ecosystem and facilitates payments through any of the stated interfaces in the expected solution.
+
+You can use the NPCI APIs to build your solution though this is not mandatory. Please access the APIs at the link below:
+
+https://infinit.co.in
+
+All the UPI APIs are relevant.
+
+
+
+Solution Expected:
+
+The solution may be in either of the two forms or both:
+
+A smooth and effortless navigating user experience (UX) with minimal language dependency. The on-screen design elements should be self-explanatory to engage audience of all kinds.
+Currently smart devices are able to respond to simple voice commands and engage in two-way conversation with their users – but for voice payments to remain secure, the technology must become ever more sophisticated and, crucially, have the capacity to understand the context and intent of the speaker.
+
+The solution can be build basis the below categories:
+
+Sol with no change in UPI platform
+Sol with changes in UPI platform
+
+Few concerns to be addressed by the solution :
+
+High on Priority
+
+Problems of incorrect voice recognition i.e. we say X and we get Y
+How to handle the noise interference etc. Latency issue if any
+Navigation between pages. Can extra intelligence be built in for them to fetch the Balance Enquiry/ contacts list/ any other command like pls give the most frequently paid person/ other intelligence
+Voice data size – database size
+Voice recognition API (3rd party API or in-house)
+Data security – encryption
+Security
+
+Low on Priority
+
+User Authentication. UPI PIN in Voice is not allowed owing to security (How to handle this if we get approvals?)
+Voice – support vernacular
+Send money – voice based details fill (in payment VPA, amount etc details are filled)
+
+Judging Criteria :
+
+This solution will be evaluated on the following parameters:
+
+Correctness & Performance
+Completeness
+Ease of Usage
+Documentations
+Deliverables :
+
+Application/Solution source: should contain all the necessary source files.
+Readme.txt: This should contain clear step-by-step instructions on how to build, deployment and usages of the Applications.
+Presentation.pptx: This should contain a description of what you have tried to build, what problem you are solving and why your Application/solution should be considered for the final round. Please find (SAMPLE PRESENTATION) to submit your solution.
+Video showing the demo functionalities of the application (if applicable)

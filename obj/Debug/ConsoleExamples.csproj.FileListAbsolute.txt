@@ -1,0 +1,6 @@
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ConsoleExample\ConsoleExample\bin\Debug\ConsoleExamples.exe
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ConsoleExample\ConsoleExample\bin\Debug\ConsoleExamples.pdb
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ConsoleExample\ConsoleExample\obj\Debug\ConsoleExamples.csprojAssemblyReference.cache
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ConsoleExample\ConsoleExample\obj\Debug\ConsoleExamples.csproj.CoreCompileInputs.cache
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ConsoleExample\ConsoleExample\obj\Debug\ConsoleExamples.exe
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ConsoleExample\ConsoleExample\obj\Debug\ConsoleExamples.pdb

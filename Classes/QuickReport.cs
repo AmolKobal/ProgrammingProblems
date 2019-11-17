@@ -23,7 +23,7 @@ namespace ProgrammingProblems
     {
         List<int> input = new List<int>();
 
-        int nums = 20;
+        private readonly int nums = 20;
 
         double _mean;
         double _median;

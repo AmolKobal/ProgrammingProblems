@@ -11,12 +11,12 @@
 
         public bool IsSubset(T[] subset)
         {
-            foreach (T value in subset)
+            foreach (T subsetItem in subset)
             {
                 bool found = false;
                 foreach (T item in set)
                 {
-                    if (value.Equals(item))
+                    if (subsetItem.Equals(item))
                     {
                         found = true;
                         break;

@@ -1,0 +1,17 @@
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ConsoleExample\ConsoleExample\obj\Debug\ProgrammingProblems.csproj.CoreCompileInputs.cache
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ConsoleExample\ConsoleExample\bin\Debug\ProgrammingProblems.exe
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ConsoleExample\ConsoleExample\bin\Debug\ProgrammingProblems.pdb
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ConsoleExample\ConsoleExample\obj\Debug\ProgrammingProblems.exe
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ConsoleExample\ConsoleExample\obj\Debug\ProgrammingProblems.pdb
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ProgrammingProblems\ProgrammingProblems\obj\Debug\ProgrammingProblems.csprojAssemblyReference.cache
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ProgrammingProblems\ProgrammingProblems\obj\Debug\ProgrammingProblems.csproj.CoreCompileInputs.cache
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ProgrammingProblems\ProgrammingProblems\obj\Debug\ProgrammingProblems.exe
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ProgrammingProblems\ProgrammingProblems\obj\Debug\ProgrammingProblems.pdb
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ProgrammingProblems\ProgrammingProblems\bin\Debug\ProgrammingProblems.exe
+C:\MyData\Projects\DotNet\Console\ConsoleExamples\ProgrammingProblems\ProgrammingProblems\bin\Debug\ProgrammingProblems.pdb
+C:\MyData\Projects\DotNet\ProgrammingProblems\bin\Debug\ProgrammingProblems.exe
+C:\MyData\Projects\DotNet\ProgrammingProblems\bin\Debug\ProgrammingProblems.pdb
+C:\MyData\Projects\DotNet\ProgrammingProblems\obj\Debug\ProgrammingProblems.csprojAssemblyReference.cache
+C:\MyData\Projects\DotNet\ProgrammingProblems\obj\Debug\ProgrammingProblems.csproj.CoreCompileInputs.cache
+C:\MyData\Projects\DotNet\ProgrammingProblems\obj\Debug\ProgrammingProblems.exe
+C:\MyData\Projects\DotNet\ProgrammingProblems\obj\Debug\ProgrammingProblems.pdb

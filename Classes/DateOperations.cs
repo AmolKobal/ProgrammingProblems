@@ -125,8 +125,6 @@ namespace ProgrammingProblems.Test
 
                 return IsValidDate(day_num, month_num, year);
             }
-
-            return true;
         }
 
         private static bool IsValidDate(int day, int month, int year)
