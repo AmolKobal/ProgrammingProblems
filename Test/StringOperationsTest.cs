@@ -1,4 +1,6 @@
-﻿using static System.Console;
+﻿using System;
+using static System.Console;
+using ProgrammingProblems.Classes;
 
 namespace ProgrammingProblems.Test
 {
@@ -9,6 +11,14 @@ namespace ProgrammingProblems.Test
             WordsWithinWordsTest();
             WordsOfSameLetterTest();
             AutoCompleteWordsTest();
+            RunLengthEncodingTest();
+        }
+
+        private static void RunLengthEncodingTest()
+        {
+            string input = "AAAABBBCCDAE";
+            WriteLine("RunLengthEncoding");
+            WriteLine($"{input} : {RunLengthEncoding.Encode(input)}");
         }
 
         public static void WordsWithinWordsTest()
