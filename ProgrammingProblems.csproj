@@ -56,6 +56,7 @@
     <Compile Include="Classes\MissingNumberInArray.cs" />
     <Compile Include="Classes\NumberProduct.cs" />
     <Compile Include="Classes\RandomNumber.cs" />
+    <Compile Include="Classes\RunLengthEncoding.cs" />
     <Compile Include="Classes\SumOfMultiples.cs" />
     <Compile Include="Classes\NumberOperations.cs" />
     <Compile Include="Classes\PascalTriangle.cs" />

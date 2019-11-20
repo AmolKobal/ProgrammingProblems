@@ -12,7 +12,7 @@ namespace ProgrammingProblems.Test
 
             //SumOfMultipleTest();
 
-            RandomNumerTest();
+            //RandomNumerTest();
         }
 
         private static void PascalTriangleTest()
