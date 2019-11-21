@@ -47,6 +47,7 @@ namespace ProgrammingProblems.Classes
                 }
             }
 
+            // For last character.
             if (count > 0)
                 output.Append($"{count}{lastChar}");
             else
@@ -57,7 +58,24 @@ namespace ProgrammingProblems.Classes
 
         public static string Decode(string input)
         {
-            return "";
+            if (input.Length <= 0)
+                return "";
+
+            StringBuilder output = new StringBuilder();
+            char outchar = input[0];
+
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (char.IsDigit(input[i]))
+                {
+                    outchar = input[i + 1];
+                    int count = input[i] - 48;
+                    output.Append(new string(outchar, count));
+                    i++;
+                }
+            }
+
+            return output.ToString();
         }
     }
 }

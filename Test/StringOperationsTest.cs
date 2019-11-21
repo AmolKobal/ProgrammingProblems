@@ -18,7 +18,17 @@ namespace ProgrammingProblems.Test
         {
             string input = "AAAABBBCCDAE";
             WriteLine("RunLengthEncoding");
-            WriteLine($"{input} : {RunLengthEncoding.Encode(input)}");
+
+            string encodedOutput = RunLengthEncoding.Encode(input);
+
+            WriteLine($"Input : {input} , Encoded : {encodedOutput}");
+
+            string decodedOutput = RunLengthEncoding.Decode(encodedOutput);
+
+            WriteLine($"Input : {input} , Decoded : {decodedOutput}");
+
+            WriteLine(input == decodedOutput);
+
         }
 
         public static void WordsWithinWordsTest()
