@@ -12,6 +12,29 @@ namespace ProgrammingProblems.Test
             WordsOfSameLetterTest();
             AutoCompleteWordsTest();
             RunLengthEncodingTest();
+            BalancedBracketsTest();
+            SplitStringInLengthsTest();
+        }
+
+        private static void SplitStringInLengthsTest()
+        {
+            string input = "the quick brown fox jumps over the lazy dog";
+            int length = 10;
+
+            string[] output = StringOperations.SplitStringInLengths(input, length);
+
+            WriteLine("*****     SplitStringInLengths     *****");
+            foreach (string str in output)
+            {
+                WriteLine(str);
+            }
+        }
+
+        private static void BalancedBracketsTest()
+        {
+            string input = "([])[]({})";
+            input = "((()))";
+            WriteLine($"{input} is balanced: {BalancedBrackets.IsBalanced(input)}");
         }
 
         private static void RunLengthEncodingTest()
